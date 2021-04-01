@@ -1,0 +1,107 @@
+[
+[
+  Version: V3
+  Subject: CN=Desafio Estagio Java, O=BRy Tecnologia, OU=Validado por email, C=BR
+  Signature Algorithm: SHA256withRSA, OID = 1.2.840.113549.1.1.11
+
+  Key:  Sun RSA public key, 2048 bits
+  params: null
+  modulus: 30831082327011671589228235312796956523827857579205390936166888284328491445798600103228723412970602244152856373006158274689520004132239514494474493581385255485653005466257842423077313057617656341077722081187732841336710421291717523963488219616769966454743986033603752213940498644488758590964681770122746324767231276269099792051099452953153708187368111947330607985308916012239114600104662025133057707053942747706809669957782818143867119982727088452730959485370848554225322317639280435062852241772297799613766150370607308817984006379564983190076003616422816911809528276177911942238775199211230689837555635136448659789977
+  public exponent: 65537
+  Validity: [From: Fri Mar 19 18:16:46 BRT 2021,
+               To: Sat Mar 19 20:59:59 BRT 2022]
+  Issuer: C=BR, OU=Autoridade Certificadora Raiz BRy Tecnologia v3, O=BRy Tecnologia SA, CN=AC BRy Multipla v4
+  SerialNumber: [    4667]
+
+Certificate Extensions: 9
+[1]: ObjectId: 1.3.6.1.5.5.7.1.1 Criticality=false
+AuthorityInfoAccess [
+  [
+   accessMethod: caIssuers
+   accessLocation: URIName: http://icp.bry.com.br/repositorio/crt/ac_bry_multipla_v4.p7b
+]
+]
+
+[2]: ObjectId: 2.5.29.35 Criticality=false
+AuthorityKeyIdentifier [
+KeyIdentifier [
+0000: 24 02 7F 55 A9 9C A8 85   47 7A 81 5E F6 40 B3 E6  $..U....Gz.^.@..
+0010: 30 D1 4E F5                                        0.N.
+]
+]
+
+[3]: ObjectId: 2.5.29.19 Criticality=false
+BasicConstraints:[
+  CA:false
+  PathLen: undefined
+]
+
+[4]: ObjectId: 2.5.29.31 Criticality=false
+CRLDistributionPoints [
+  [DistributionPoint:
+     [URIName: http://icp.bry.com.br/repositorio/crl/ac_bry_multipla_v4.crl]
+, DistributionPoint:
+     [URIName: http://www.bry.com.br/repositorio/crl/ac_bry_multipla_v4.crl]
+]]
+
+[5]: ObjectId: 2.5.29.32 Criticality=false
+CertificatePolicies [
+  [CertificatePolicyId: [1.3.6.1.4.1.14975.1.3.1.10.2]
+[PolicyQualifierInfo: [
+  qualifierID: 1.3.6.1.5.5.7.2.1
+  qualifier: 0000: 16 40 68 74 74 70 3A 2F   2F 69 63 70 2E 62 72 79  .@http://icp.bry
+0010: 2E 63 6F 6D 2E 62 72 2F   72 65 70 6F 73 69 74 6F  .com.br/reposito
+0020: 72 69 6F 2F 70 63 2F 70   63 5F 61 63 5F 62 72 79  rio/pc/pc_ac_bry
+0030: 5F 6D 75 6C 74 69 70 6C   61 5F 76 34 5F 32 2E 70  _multipla_v4_2.p
+0040: 64 66                                              df
+
+]]  ]
+]
+
+[6]: ObjectId: 2.5.29.37 Criticality=false
+ExtendedKeyUsages [
+  emailProtection
+  clientAuth
+]
+
+[7]: ObjectId: 2.5.29.15 Criticality=true
+KeyUsage [
+  DigitalSignature
+  Non_repudiation
+  Key_Encipherment
+]
+
+[8]: ObjectId: 2.5.29.17 Criticality=false
+SubjectAlternativeName [
+  RFC822Name: luiz.sousa@bry.com.br
+]
+
+[9]: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 86 A3 AE 10 E3 8C 03 58   6A B2 6A 55 8E 65 C9 34  .......Xj.jU.e.4
+0010: 94 51 B5 A7                                        .Q..
+]
+]
+
+]
+  Algorithm: [SHA256withRSA]
+  Signature:
+0000: 62 20 3A CC 15 7F 2A F9   29 9F 01 B1 D1 81 28 98  b :...*.).....(.
+0010: 44 54 FB 6C 6D 7B 41 DF   EA 8E 30 35 4F 69 0E B3  DT.lm.A...05Oi..
+0020: 8D F0 6D 24 51 EF 65 6B   27 31 E7 6F 7D 63 9B 57  ..m$Q.ek'1.o.c.W
+0030: 0F 20 57 5B F2 B9 93 85   A9 E6 07 C5 D8 54 FC EF  . W[.........T..
+0040: 60 A9 50 97 0B 4C DB 8A   39 A9 C0 CB A5 92 B5 E8  `.P..L..9.......
+0050: 1C 83 A8 81 E6 23 EB D0   7A F5 52 87 EC 91 2F 9A  .....#..z.R.../.
+0060: 05 AB 3F E0 CE 80 55 F4   B5 42 4C 09 5E 92 F3 50  ..?...U..BL.^..P
+0070: 37 61 1A CD B4 E2 AB BC   6D AB EC C7 25 D6 CB 30  7a......m...%..0
+0080: EA 94 3C D9 5C CA 8A 32   74 CB 22 32 92 23 F2 64  ..<.\..2t."2.#.d
+0090: 8C 3A 43 9B 9A C4 0A 65   9D 38 AF 33 93 B9 B5 2E  .:C....e.8.3....
+00A0: 4B 29 D4 5C E5 C9 A6 B8   40 04 EF E6 57 3D 8C 20  K).\....@...W=. 
+00B0: 38 AA E8 E9 E7 35 F6 5A   44 E8 8B 67 56 0E 97 FB  8....5.ZD..gV...
+00C0: D5 07 5A 9A 73 52 D1 0D   B6 46 A7 F7 AB F2 6B CF  ..Z.sR...F....k.
+00D0: 0B CD C1 95 71 FB 8A 5F   5A B7 69 EC 29 19 BD 9C  ....q.._Z.i.)...
+00E0: 85 38 87 79 CA 9D 2B 01   25 3A 0F 1A D5 9D FB B0  .8.y..+.%:......
+00F0: 77 6E 04 17 37 FC 92 CB   CD F1 6E 83 1C 4B ED D6  wn..7.....n..K..
+
+]
